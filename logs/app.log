@@ -1,0 +1,33 @@
+{"timeStamp":"2026-06-10T07:06:41.344Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:06:41.346Z","stack":"backend","level":"info","package":"depot-service","message":"Fetching depots"}
+{"timeStamp":"2026-06-10T07:06:41.520Z","stack":"backend","level":"error","package":"scheduler-controller","message":"Request failed with status code 401"}
+{"timeStamp":"2026-06-10T07:11:04.912Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:11:05.526Z","stack":"backend","level":"error","package":"scheduler-controller","message":"Request failed with status code 401"}
+{"timeStamp":"2026-06-10T07:13:05.802Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:13:06.183Z","stack":"backend","level":"error","package":"scheduler-controller","message":"selectedTasks is not defined"}
+{"timeStamp":"2026-06-10T07:13:43.020Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:13:43.491Z","stack":"backend","level":"error","package":"scheduler-controller","message":"selectedTasks is not defined"}
+{"timeStamp":"2026-06-10T07:13:59.708Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:14:00.081Z","stack":"backend","level":"error","package":"scheduler-controller","message":"Cannot read properties of undefined (reading 'map')"}
+{"timeStamp":"2026-06-10T07:15:37.289Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:17:03.504Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:24:24.820Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:24:24.822Z","stack":"backend","level":"info","package":"depot-service","message":"Fetching depots"}
+{"timeStamp":"2026-06-10T07:24:25.015Z","stack":"backend","level":"info","package":"depot-service","message":"Depots fetched successfully"}
+{"timeStamp":"2026-06-10T07:24:25.016Z","stack":"backend","level":"info","package":"vehicle-service","message":"Fetching vehicles"}
+{"timeStamp":"2026-06-10T07:24:25.134Z","stack":"backend","level":"info","package":"vehicle-service","message":"Vehicles fetched successfully"}
+{"timeStamp":"2026-06-10T07:35:57.209Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:35:57.235Z","stack":"backend","level":"info","package":"depot-service","message":"Fetching depots"}
+{"timeStamp":"2026-06-10T07:35:57.481Z","stack":"backend","level":"error","package":"depot-service","message":"Request failed with status code 401"}
+{"timeStamp":"2026-06-10T07:35:57.484Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Optimization completed successfully"}
+{"timeStamp":"2026-06-10T07:36:37.793Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:36:37.808Z","stack":"backend","level":"info","package":"depot-service","message":"Fetching depots"}
+{"timeStamp":"2026-06-10T07:36:38.060Z","stack":"backend","level":"info","package":"depot-service","message":"Depots fetched successfully"}
+{"timeStamp":"2026-06-10T07:36:38.063Z","stack":"backend","level":"info","package":"vehicle-service","message":"Fetching vehicles"}
+{"timeStamp":"2026-06-10T07:36:38.412Z","stack":"backend","level":"info","package":"vehicle-service","message":"Vehicles fetched successfully"}
+{"timeStamp":"2026-06-10T07:38:49.164Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Starting optimization"}
+{"timeStamp":"2026-06-10T07:38:49.374Z","stack":"backend","level":"info","package":"depot-service","message":"Fetching depots"}
+{"timeStamp":"2026-06-10T07:38:49.666Z","stack":"backend","level":"info","package":"depot-service","message":"Depots fetched successfully"}
+{"timeStamp":"2026-06-10T07:38:49.668Z","stack":"backend","level":"info","package":"vehicle-service","message":"Fetching vehicles"}
+{"timeStamp":"2026-06-10T07:38:49.855Z","stack":"backend","level":"info","package":"vehicle-service","message":"Vehicles fetched successfully"}
+{"timeStamp":"2026-06-10T07:38:49.858Z","stack":"backend","level":"info","package":"scheduler-controller","message":"Optimization completed successfully"}
