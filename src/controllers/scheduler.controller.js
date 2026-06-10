@@ -2,10 +2,14 @@ import { getDepots } from "../services/depot.service.js";
 import { getVehicles } from "../services/vehicle.service.js";
 import { optimizeVehicles } from "../services/knapsack.service.js";
 import { logger } from "../middleware/logger.js";
-
 export const getSchedule = async (req, res) => {
   try {
-    logger("backend", "info", "scheduler-controller", "Starting optimization");
+    await logger(
+      "backend",
+      "info",
+      "scheduler-controller",
+      "Starting optimization",
+    );
 
     const depots = await getDepots();
     const vehicles = await getVehicles();
@@ -21,18 +25,19 @@ export const getSchedule = async (req, res) => {
       };
     });
 
+    await logger(
+      "backend",
+      "info",
+      "scheduler-controller",
+      "Optimization completed successfully",
+    );
+
     return res.status(200).json({
       success: true,
       schedules,
     });
   } catch (error) {
-    logger(
-      "backend",
-      "info",
-      "scheduler-controller",
-      "Optimization completed successfully",
-      error.message,
-    );
+    await logger("backend", "error", "scheduler-controller", error.message);
 
     return res.status(500).json({
       success: false,
